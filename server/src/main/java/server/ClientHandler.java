@@ -59,6 +59,7 @@ public class ClientHandler {
                                 System.out.println("client disconnected");
                                 break;
                             }
+                            // приват
                             if(str.startsWith(Command.PRIVATE)){
                                 String [] token = str.split("\\s" , 3);
                                 if (token.length < 3){
