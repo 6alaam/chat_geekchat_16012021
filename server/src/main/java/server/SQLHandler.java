@@ -90,7 +90,7 @@ public class SQLHandler {
  * метод добавления сообщения в БД
  * @param sender ник отправителя
  * @param receiver ник получателя "null" если всем пользователям
- * @param text текст сообщения
+ * @param text текст сообщения..
  * @param date дата и время сообщения в текстовом виде
  * */
     public static boolean addMessage(String sender, String receiver, String text, String date) {
